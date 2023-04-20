@@ -1,0 +1,65 @@
+
+body, form, textarea {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(131, 56, 56);
+}
+
+#paginaPrincipal {
+    
+    margin: 50px auto;
+    background-color: #ff5820;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #333 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    border-color: black ;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #6b2222;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #ff2600;
+}
+
+#texto {
+    margin-top: 20px;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
